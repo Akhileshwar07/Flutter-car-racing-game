@@ -1,0 +1,44 @@
+name: my_car_racing_game
+description: "A simple car racing game built with Flutter and Flame."
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.4.4 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flame: ^1.10.1
+  cupertino_icons: ^1.0.6
+  shared_preferences: ^2.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/icon.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/menu.jpg
+    - assets/images/roads.png
+    - assets/images/cars.png
+    - assets/images/rock.png
+    - assets/images/icon.png
+
+  # Uncomment and add custom fonts if needed
+  # fonts:
+  #   - family: GameFont
+  #     fonts:
+  #       - asset: assets/fonts/GameFont-Regular.ttf
+  #       - asset: assets/fonts/GameFont-Bold.ttf
+  #         weight: 700
